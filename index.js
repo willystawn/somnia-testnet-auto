@@ -188,7 +188,7 @@ async function runForAccount(privateKey, accountIndex) {
 
         } catch (e) {
             log(`CRITICAL ERROR in worker loop for ${logPrefix}. Restarting loop after 1 minute. Error: ${e.message}`);
-            await sleep(60000);
+            await sleep(300000);
         }
     }
 }

@@ -35,5 +35,5 @@ module.exports = {
     // 5. Error Handling Settings
     // If an action fails due to insufficient funds (gas or tokens),
     // the bot will wait for this many hours before retrying for that account.
-    longDelayHours: 8,
+    longDelayHours: 4,
 };
